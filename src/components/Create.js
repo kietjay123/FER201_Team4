@@ -14,7 +14,7 @@ export default function Create() {
     const navigate= useNavigate()
 
     const handlesubmit = (e) => {
-        e.preventDefault()
+        e.preventDefault();
         const postobj = {name,created_date, content}
         console.log(postobj)
 
